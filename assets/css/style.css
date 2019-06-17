@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+  margin: 0;
+ font-family: 'Play', sans-serif;
+}
+
+nav {
+	width: 100%;
+	background-color: #eca9a9;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.card{
+  margin: 10px;
+  padding:0;
+}
+
+.footer,
+.push {
+  height: 50px;
+  
+}
+
+.footer{
+}
+
+.item-image {
+  width: 100px;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  /*height: 60px !important;*/
+}
