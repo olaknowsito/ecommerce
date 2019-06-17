@@ -1,9 +1,9 @@
 <?php 
 	
 	$host = 'u0zbt18wwjva9e0v.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
-	$username = 'txofu5r9cg0hx6ts';
-	$password = 'luzlbb2p9vsz0a2g';
-	$database = 'bmhzj4mk2utyp25j';
+	$username = 'vjgn7d128q5zx9m7';
+	$password = 'plt4ipf2jri71wjl';
+	$database = 'yfjaed87kvj50q5d';
 
 	$conn = mysqli_connect($host, $username, $password, $database);
 
