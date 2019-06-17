@@ -80,12 +80,12 @@ require '../vendor/autoload.php';
 $mail = new PHPMailer(true); 
 // Passing `true` enables exceptions
 
-$staff_email = 'hotels.com.confirmation@gmail.com';
-$password = '123123drink';
-$brand = 'PC-Rigz';
+$staff_email = 'bookhub.dummy@gmail.com';
+$password = 'adminako';
+$brand = 'Musical-Instru';
 
 $customer_email = $_SESSION['user']['email'];          //
-$subject = 'PC-Rigz - Order Confirmation';
+$subject = 'Musical-Instru - Order Confirmation';
 $body = '<div style="text-transform:uppercase;"><h3>Reference No.: '.$transaction_code.'</h3></div>'."<div>Ship to {$_SESSION['user']['address']}</div>";
 try {
     //Server settings
